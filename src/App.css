@@ -1,0 +1,154 @@
+:root {
+  --primary-color: blueviolet;
+  --primary-hover-color: rgb(155, 62, 242);
+  --primary-button-color: orange;
+  --primary-text-color: rgb(240, 240, 240);
+  --secondary-text-color: rgb(220, 220, 220);
+  --primary-box-color: cadetblue;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+  background-color: var(--primary-color);
+  color: var(--primary-text-color);
+  border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+.button {
+  background-color: var(--primary-button-color);
+  padding: 9px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  color: black;
+}
+
+.button:focus {
+  outline: none;
+}
+
+/* nav {
+  .button {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+  }
+  .button:hover {
+    background-color: var(--primary-hover-color);
+    color: var(--primary-text-color);
+  }
+} */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+nav {
+  margin: 0;
+  .button {
+    background-color: transparent;
+    color: black;
+    text-align: start;
+    &:hover {
+      color: var(--primary-box-color);
+    }
+  }
+  .active {
+    color: var(--primary-box-color);
+  }
+}
+
+.animate-box {
+  width: 15rem;
+  height: 15rem;
+  background-color: var(--primary-box-color);
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* Scroll animations page */
+
+.scroll-animate-text {
+  text-align: start;
+  margin-top: 60px;
+}
+
+.scroll-state {
+  position: sticky;
+  transform-origin: left;
+  top: 0;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.scroll-animate {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  margin-bottom: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #root {
+    color: white;
+  }
+  .scroll-animate {
+    background-color: rgb(70, 70, 70);
+  }
+  nav .button {
+    color: white;
+    &:hover {
+      color: aquamarine;
+    }
+  }
+  nav .active {
+    color: aquamarine;
+  }
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
