@@ -4,7 +4,6 @@ import { useRef } from "react";
 export const ViewAnimations = () => {
   const ref = useRef(null);
 
-  // Add {once:true} for continuous animation
   const isInView = useInView(ref);
   return (
     <div>
@@ -31,3 +30,4 @@ export const ViewAnimations = () => {
     </div>
   );
 };
+// This component is related to view animations
