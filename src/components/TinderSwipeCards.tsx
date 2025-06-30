@@ -110,3 +110,4 @@ const cardData: Card[] = [
     url: "/public/assets/img6.avif",
   },
 ];
+// This component is a related tinder swipe cards
