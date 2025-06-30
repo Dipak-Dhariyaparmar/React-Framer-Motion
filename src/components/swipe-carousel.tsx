@@ -136,3 +136,4 @@ const GradientEdges = () => {
     </>
   );
 };
+// This component is related to swipe-carousel
