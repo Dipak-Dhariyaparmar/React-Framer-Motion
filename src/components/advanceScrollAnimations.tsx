@@ -21,3 +21,4 @@ export const AdvanceScrollAnimations: React.FC = () => {
     </div>
   );
 };
+// This component is a related advace scroll animations
