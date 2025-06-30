@@ -8,3 +8,4 @@ export const NotFound = () => {
     </div>
   );
 };
+// This component is a related to 404 page not found
