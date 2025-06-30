@@ -34,3 +34,4 @@ export default function AnimationControls() {
     </div>
   );
 }
+// This component is a related animation controls
