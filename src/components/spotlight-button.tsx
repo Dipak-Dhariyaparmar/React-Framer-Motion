@@ -56,3 +56,4 @@ const SpotlightButton = () => {
 };
 
 export default SpotLightButton;
+// This component is related to spotlight button
