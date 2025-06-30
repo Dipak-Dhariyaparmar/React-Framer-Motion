@@ -40,3 +40,4 @@ export const FramerMotionBasics = () => {
     </div>
   );
 };
+// This component is a related to framermotion basics
