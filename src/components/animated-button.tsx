@@ -38,3 +38,4 @@ const DrawOutlineButton = ({
 };
 
 export default AnimatedButton;
+// This component is a related animated-button
