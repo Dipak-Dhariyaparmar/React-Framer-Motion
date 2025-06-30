@@ -61,3 +61,4 @@ export const Navbar = () => {
     </nav>
   );
 };
+// This component is a related to navbar
