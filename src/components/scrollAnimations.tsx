@@ -209,3 +209,4 @@ export const ScrollAnimations = () => {
     </div>
   );
 };
+// This component is related to scrollanimations
