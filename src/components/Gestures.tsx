@@ -33,3 +33,4 @@ export default function Gestures() {
     </div>
   );
 }
+// This component is a related geatures
